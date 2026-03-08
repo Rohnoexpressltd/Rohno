@@ -11,7 +11,7 @@
 <style>
 
 body{
-font-family:Arial, Helvetica, sans-serif;
+font-family:Arial, sans-serif;
 margin:0;
 text-align:center;
 color:#333;
@@ -31,6 +31,7 @@ font-weight:bold;
 
 .hero{
 padding:40px 20px;
+background:#f5f5f5;
 }
 
 .hero img{
@@ -39,8 +40,16 @@ width:90%;
 border-radius:6px;
 }
 
-h1{
-margin-top:25px;
+.features{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+padding:40px 20px;
+}
+
+.feature{
+width:200px;
 }
 
 footer{
@@ -71,17 +80,40 @@ text-decoration:none;
 </header>
 
 
-<div class="hero">
+<section class="hero">
 
-<img src="https://rohnoexpress.com/wp-content/uploads/2023/02/20220523_1654570-scaled-e1677473099967-1024x693.jpg">
+<img src="truck.jpg" alt="Rohno Express Truck">
 
 <h1>Rohno Express Ltd.</h1>
 
-<p>
-Reliable Dry Van Transportation across Canada and USA
-</p>
+<p>Reliable Dry Van Transportation across Canada and USA</p>
 
+</section>
+
+
+<section class="features">
+
+<div class="feature">
+<h3>Reliable</h3>
+<p>On time freight delivery you can trust.</p>
 </div>
+
+<div class="feature">
+<h3>Dry Vans</h3>
+<p>Secure dry van equipment for all freight.</p>
+</div>
+
+<div class="feature">
+<h3>Canada</h3>
+<p>Serving Ontario and across Canada.</p>
+</div>
+
+<div class="feature">
+<h3>USA</h3>
+<p>Cross border freight specialists.</p>
+</div>
+
+</section>
 
 
 <footer>
