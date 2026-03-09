@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Rohno Express Ltd</title>
 
@@ -11,30 +12,29 @@
 
 body{
 margin:0;
-font-family:Arial, Helvetica, sans-serif;
-color:#333;
+font-family:Arial;
 }
 
 header{
+background:#4f6ddf;
+color:white;
+padding:20px 40px;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:20px 60px;
-background:#4f6ddf;
-color:white;
 }
 
 nav a{
-margin-left:25px;
 color:white;
+margin-left:20px;
 text-decoration:none;
 font-weight:bold;
 }
 
 .hero{
-background:linear-gradient(135deg,#4f6ddf,#5a78e5);
-padding:100px 60px;
+background:#4f6ddf;
 color:white;
+padding:100px 40px;
 display:flex;
 align-items:center;
 justify-content:space-between;
@@ -46,37 +46,12 @@ max-width:500px;
 }
 
 .hero h1{
-font-size:42px;
 color:#ffb400;
+font-size:40px;
 }
 
 .hero h2{
-font-size:36px;
-font-weight:600;
-}
-
-.hero p{
-margin-top:20px;
-}
-
-.hero-buttons a{
-display:inline-block;
-margin-right:15px;
-margin-top:20px;
-padding:12px 26px;
-border-radius:30px;
-text-decoration:none;
-font-weight:bold;
-}
-
-.btn-primary{
-background:#ffb400;
-color:white;
-}
-
-.btn-outline{
-border:2px solid #ffb400;
-color:#ffb400;
+font-size:34px;
 }
 
 .hero img{
@@ -94,19 +69,8 @@ font-weight:bold;
 }
 
 .section{
-padding:80px 60px;
-}
-
-.why{
-display:flex;
-gap:50px;
-align-items:center;
-flex-wrap:wrap;
-}
-
-.why img{
-width:420px;
-border-radius:6px;
+padding:70px 40px;
+text-align:center;
 }
 
 .grid{
@@ -116,46 +80,17 @@ gap:30px;
 margin-top:40px;
 }
 
-.service-box{
-text-align:center;
-}
-
-.quote{
-background:#d7e0ea;
-margin:80px;
-padding:40px;
-border-radius:20px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-.quote a{
-background:#ff9900;
-color:white;
-padding:14px 28px;
-border-radius:25px;
-text-decoration:none;
-font-weight:bold;
-}
-
 footer{
 background:#4f6ddf;
 color:white;
-padding:60px;
+padding:40px;
+text-align:center;
 }
 
-.footer-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:30px;
-}
-
-.footer-grid a{
+footer a{
 color:white;
+margin:0 10px;
 text-decoration:none;
-display:block;
-margin-top:10px;
 }
 
 </style>
@@ -166,13 +101,13 @@ margin-top:10px;
 
 <header>
 
-<h2>Rohno Express Ltd.</h2>
+<h2>Rohno Express Ltd</h2>
 
 <nav>
-<a href="#">Home</a>
-<a href="#">About</a>
-<a href="#">Services</a>
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
 <a href="contact.html">Contact</a>
+<a href="privacy.html">Privacy Policy</a>
 </nav>
 
 </header>
@@ -183,25 +118,17 @@ margin-top:10px;
 
 <h1>Rohno Express Ltd.</h1>
 
-<h2>Delivering reliability<br>on every mile</h2>
+<h2>Delivering reliability on every mile</h2>
 
 <p>
-Efficient Dry van transportation for your cargo needs - on time every time.
+Efficient Dry van transportation for your cargo needs – on time every time.
 </p>
-
-<div class="hero-buttons">
-
-<a class="btn-primary" href="#">Request Quote</a>
-<a class="btn-outline" href="tel:+12264002432">Call Us</a>
-
-</div>
 
 </div>
 
 <img src="truck.jpg">
 
 </section>
-
 
 <div class="features">
 
@@ -212,14 +139,9 @@ Efficient Dry van transportation for your cargo needs - on time every time.
 
 </div>
 
-
 <section class="section">
 
-<h1 style="text-align:center;">Why Choose Us</h1>
-
-<div class="why">
-
-<img src="truck2.jpg">
+<h1>Why Choose Us</h1>
 
 <div class="grid">
 
@@ -230,98 +152,31 @@ Efficient Dry van transportation for your cargo needs - on time every time.
 
 <div>
 <h3>Safety</h3>
-<p>We prioritize safe driving practices and compliance.</p>
+<p>Safe driving practices and compliant operations.</p>
 </div>
 
 <div>
 <h3>On Time</h3>
-<p>Strong track record of on time delivery.</p>
+<p>Strong on-time delivery performance.</p>
 </div>
 
 <div>
-<h3>24/7 Support</h3>
-<p>Dispatch and updates available anytime.</p>
-</div>
-
+<h3>24/7 Dispatch</h3>
+<p>Our dispatch team is available anytime.</p>
 </div>
 
 </div>
 
 </section>
-
-
-<section class="section">
-
-<h1 style="text-align:center;">Our Service</h1>
-
-<div class="grid">
-
-<div class="service-box">
-<h3>Local Hauling</h3>
-<p>Transportation services within GTA and Ontario.</p>
-</div>
-
-<div class="service-box">
-<h3>Long Hauling</h3>
-<p>Cross border freight across Canada and US.</p>
-</div>
-
-<div class="service-box">
-<h3>LTL</h3>
-<p>Less than truckload shipping services.</p>
-</div>
-
-<div class="service-box">
-<h3>FTL</h3>
-<p>Full truckload freight across North America.</p>
-</div>
-
-</div>
-
-</section>
-
-
-<div class="quote">
-
-<div>
-
-<h2>Request Quote from Rohno</h2>
-
-<p>Get a reliable quote for your transportation needs.</p>
-
-</div>
-
-<a href="#">QUOTE REQUEST</a>
-
-</div>
-
 
 <footer>
 
-<div class="footer-grid">
+<p>© Rohno Express Ltd</p>
 
-<div>
-<h3>Rohno Express Ltd</h3>
-<p>Brantford, Ontario Canada</p>
-</div>
-
-<div>
-<h3>Contact</h3>
-<p>519-209-8034</p>
-<p>226-400-2432</p>
-</div>
-
-<div>
-<h3>Quick Links</h3>
-
-<a href="#">Home</a>
-<a href="#">About</a>
-<a href="#">Services</a>
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
 <a href="contact.html">Contact</a>
-
-</div>
-
-</div>
+<a href="privacy.html">Privacy Policy</a>
 
 </footer>
 
